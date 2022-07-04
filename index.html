@@ -13,7 +13,7 @@
 <body>
 
     <head>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg p-3 mb-2 bg-primary text-white">
             <div class="container-fluid">
                 <h1>Tododrinks</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -22,7 +22,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
@@ -49,21 +49,60 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-success bg-secondary text-black bg-opacity-50"
+                            type="submit">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
     </head>
-    <main class="bg-info .bg-gradient ">
+    <main class="p-3 mb-2 bg-info text-black">
         <section>
             <div>
                 <h2> se soskamdlad</h2>
                 <p> y aca o tras cosas </p>
             </div>
         </section>
+        <section class="row row-cols-1 row-cols-md-3 g-4 gap-4 m-0 ">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="p-3 mb-2 bg-primary text-black">
         <p>todos los derechos reservados de mi locura y desprecion</p>
     </footer>
 </body>
